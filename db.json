@@ -1,0 +1,123 @@
+{
+  "students": [
+    {
+      "username": "test",
+      "email": "test@test.com",
+      "password": "123",
+      "subjects": [
+        {
+          "name": "علم النفس",
+          "id": "1",
+          "degree": 0
+        },
+        {
+          "name": "علم النفس",
+          "id": "1",
+          "degree": 0
+        },
+        {
+          "name": "علم النفس",
+          "id": "1",
+          "degree": 0
+        },
+        {
+          "name": "علم النفس",
+          "id": "1",
+          "degree": 0
+        },
+        {
+          "name": "العربي",
+          "id": "2",
+          "degree": 0
+        }
+      ],
+      "id": "1"
+    }
+  ],
+  "doctor": [
+    {
+      "username": "admin",
+      "email": "admin@admin.com",
+      "password": "1",
+      "id": "123"
+    }
+  ],
+  "subjects": [
+    {
+      "name": "علم النفس",
+      "questions": [
+        {
+          "question": "ما هو الفرق بين العقل والقلب؟",
+          "answer1": "العقل هو المسؤول عن التفكير والتحليل، والقلب هو المسؤول عن المشاعر",
+          "answer2": "العقل هو المسؤول عن المشاعر، والقلب هو المسؤول عن التفكير والتحليل",
+          "answer3": "العقل والقلب هما نفس الشيء",
+          "answer4": "العقل والقلب لا علاقة بينهما"
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "name": "العربي",
+      "questions": [
+        {
+          "question": "ما هو جمع كلمة كتاب؟",
+          "answer1": "كتب",
+          "answer2": "كتابة",
+          "answer3": "كتابين",
+          "answer4": "كتابات"
+        },
+        {
+          "question": "ما هو جمع كلمة قلم؟",
+          "answer1": "أقلام",
+          "answer2": "قلمون",
+          "answer3": "قلمين",
+          "answer4": "قلمات"
+        },
+        {
+          "question": "ما هو جمع كلمة مدرسة؟",
+          "answer1": "مدارس",
+          "answer2": "مدرسة",
+          "answer3": "مدرستين",
+          "answer4": "مدرسات"
+        }
+      ],
+      "id": "2"
+    },
+    {
+      "name": "الرياضيات",
+      "questions": [
+        {
+          "question": "5*5",
+          "answer1": "25",
+          "answer2": "8",
+          "answer3": "12",
+          "answer4": "40"
+        },
+        {
+          "question": "10-3",
+          "answer1": "7",
+          "answer2": "5",
+          "answer3": "3",
+          "answer4": "8"
+        },
+        {
+          "question": "15/3",
+          "answer1": "5",
+          "answer2": "3",
+          "answer3": "10",
+          "answer4": "8"
+        }
+      ],
+      "id": "3"
+    }
+  ],
+  "login": [
+    {
+      "username": "admin",
+      "role": "doctor",
+      "userId": "123",
+      "id": "1"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
